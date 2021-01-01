@@ -1,5 +1,5 @@
 # Key-Value-Data-Store
- &nbsp:It's a key-value data store library. It uses a json file to store the key-value pairs. Additional to storage support, create API also supports the TTL value in seconds. Which specifies the life of the key-value pair. 
+ &nbsp;It's a key-value data store library. It uses a json file to store the key-value pairs. Additional to storage support, create API also supports the TTL value in seconds. Which specifies the life of the key-value pair. 
 The semantics of deleting expired keys is made efficient by checking the expiration only if that key is read or deleted. This is to avoid consuming CPUs for checking a long list of keys.
 <br><br>
 CRD operations are thread safe. Locks are done to execute critical paths. 
