@@ -26,7 +26,7 @@ During object instantiation filepath could be provided or by default it creates 
   ```
   Parameter : key (String) , value (String) , TTL [seconds] (int optional) <br>
   Function description : Create a new key-value pair from the object’s file path<br>
-  Exceptions thrown<sup>*</sup> : 1,2,3<br>
+  Exceptions thrown<sup>*</sup> : 1,2,3,6<br>
   <br>
 <b>Read</b><br>
   ```
@@ -62,7 +62,7 @@ Exception thrown : 4<br>
 &nbsp;This exception is raised when read or delete is issued to the key that doesn't exist.<br><br>
 <b>FileAlreadyOpenedException</b><sup>5</sup><br>
 &nbsp;This exception is raised when the File is already opened by another crd obj.<br><br>
-<b>FileStorageExceededException</b><sup>5</sup><br>
+<b>FileStorageExceededException</b><sup>6</sup><br>
 &nbsp;This exception is raised when the size of the File exceeds 1GB <br><br>
 <b>Exception handling semantics</b>
 
