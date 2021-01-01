@@ -25,7 +25,7 @@ During object instantiation filepath could be provided or by default it creates 
   Obj.create(key,value,ttl)
   ```
   Parameter : key (String) , value (String) , TTL [seconds] (int optional) <br>
-  Function description : Create a new key-value pair from the object’s file path<br>
+  Function description : Create a new key-value pair in the object’s file path<br>
   Exceptions thrown<sup>*</sup> : 1,2,3,6<br>
   <br>
 <b>Read</b><br>
@@ -34,7 +34,7 @@ During object instantiation filepath could be provided or by default it creates 
   ```
   Parameters : key (String)<br>
   Return : value (String)<br>
-  Function description : Read the value for the given key from the object’s file path<br>
+  Function description : Read the value for the given key in the object’s file path and returns the value in string<br>
   Exception thrown : 4<br>
   <br>
 
@@ -43,7 +43,7 @@ During object instantiation filepath could be provided or by default it creates 
   Obj.delete(key)
   ```
 Parameters : key (String)<br>
-Function description : Delete the given key from object’s file path<br>
+Function description : Delete the given key in object’s file path<br>
 Exception thrown : 4<br>
  
   <br>
