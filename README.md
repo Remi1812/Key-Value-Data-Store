@@ -6,13 +6,14 @@ CRD operations are thread safe. Locks are done to execute critical paths.
 The critical paths are made as less possible for efficiency.
 # Project documentation
 <b><h3>Library import</h3></b>
+<br>
+Clone the contents of this repo and place the files in the project folder. Import using any of the following cmd
 
 ```
 from keyvalue import * #imports crd class and exception handlers
 from keyvalue import crd #imports only crd class
 import keyvalue as k #imports all contents
 ```
-Clone the contents of this repo and place the files in the project folder. Import using any of the following cmd
 <hr>
 <b><h3>Object instantiation</h3></b>
 
